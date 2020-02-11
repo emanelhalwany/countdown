@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* content div style */
+#content{
+    margin: 50px auto;
+    width: 500px;
+    background-color: #aec3ca;
+    height: fit-content;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 0px 8px -3px #7d9299;
+}
+
+p#helloMessage{
+    font-size: 20px;
+    padding: 35px;
+    color: #002c53;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #2a3d68;
+    letter-spacing: 3px;
+    display: grid;
+}
+
+#event-title , #event-year , #event-day ,select{
+    width: 250px;
+    height: 27px;
+    margin: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #2a3d68;
+
+}
+
+#create-btn{
+    margin: 50px auto;
+    width: 355px;
+    height: 30px;
+    font-size: 23px;
+    letter-spacing: 4px;
+    color: #002c53;
+    cursor: pointer;
+}
+
+#countdown{
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    background-color: #aec3ca;
+    padding: 50px;
+    margin: 120px auto;
+    display: none;
+    color: #002c53;
+    display: none;
+
+}
+
+#count1,#count2 ,#count3 ,#count4{
+    background-color: white;
+    width: 110px;
+    margin: 0px auto;
+    display: inline-block;
+    height: 20px;
+    font-size: 23px;
+    padding: 11px;
+    font-family: sans-serif;
+}
+
+#eventName{
+    margin: 35px auto;
+    font-size: 25px;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- for getting information about the event -->
+    <div id="content">
+        <p id="helloMessage">Hello ! We Are Happy To Create Your Event Countdown </p>
+
+        <!--  for getting event title -->
+
+        <label id="title">Event's Title </label>
+        <input placeholder="Enter title of your Event" id="event-title" value="">
+        <br>
+
+        <!--  for getting event year -->
+
+        <label class="date">Event's Year </label>
+        <input placeholder=" enter year like 2020 ..." id="event-year">
+        <br>
+
+        <!--  for getting event month -->
+        <label class="date">Event's Month </label>
+        <select id="months-option">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Seb">Seb</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+        </select>
+        <br>
+        <!--  for getting event day -->
+        <label class="date">Event's Day </label>
+        <input placeholder=" enter day like 8 ..." id="event-day" type="number" min="1" max="31">
+        <!-- create btn -->
+        <button id="create-btn">Create</button>
+    </div>
+
+    <!-- for creating counterdown -->
+    <div id="countdown">
+        <h1 id="eventName"></h1>
+        <div id="count1"></div>
+        <div id="count2"></div>
+        <div id="count3"></div>
+        <div id="count4"></div>
+        <div id="expired"></div>
+    </div>
+
+    <script src="js/indext.js"></script>
+</body>
+
+</html>
